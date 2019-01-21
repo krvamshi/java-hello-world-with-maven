@@ -250,3 +250,6 @@ Here’s the completed `pom.xml` file:
 ---
 **java -cp target/hello-world-maven-0.1.0.jar hello.HelloWorld**
 #Feature1Config is aligned with environment
+#Feature2 config are aligned with environment
+Adding Feature4 changes
+Adding Feature 3 changes
