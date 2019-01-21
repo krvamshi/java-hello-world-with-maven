@@ -1,7 +1,8 @@
+# Adding Feature1ByDevA
 # Building Java Projects with Maven
 This guide walks you through using Maven to build a simple Java project.
 
-## What you’ll build
+# What you’ll build
 You’ll create an application that provides the time of day and then build it with Maven.
 
 ## What you’ll need
@@ -248,3 +249,4 @@ Here’s the completed `pom.xml` file:
 ### Run project
 ---
 **java -cp target/hello-world-maven-0.1.0.jar hello.HelloWorld**
+#Feature1Config is aligned with environment
