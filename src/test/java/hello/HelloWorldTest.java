@@ -33,4 +33,10 @@ public class HelloWorldTest {
     Assert.assertEquals(Greeter.message,result);
   }
 
+  @Test
+  public void testHelloWorld2(){
+    String result = helloWorld.sayHello();
+    Assert.assertNotEquals("",result);
+  }
+
 }
