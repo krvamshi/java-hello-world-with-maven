@@ -40,7 +40,7 @@ public class HelloWorldTest {
   }
 
   @Test
-  public void testHelloWorld3(){
+  public void testTheHelloWorld3(){
     String result = helloWorld.sayHello();
     Assert.assertEquals(Greeter.message,result);
   }
