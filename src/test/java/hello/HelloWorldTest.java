@@ -39,6 +39,12 @@ public class HelloWorldTest {
     Assert.assertNotEquals("",result);
   }
 
+  @Test
+  public void testHelloWorld3(){
+    String result = helloWorld.sayHello();
+    Assert.assertNotEquals("",result);
+  }
+
 
 
 }
