@@ -6,7 +6,7 @@ node{
     stage('clean and install')
     sh label: '', script: 'mvn clean install'
 
-    stage('Generate Junit Test Report')
+    stage('Generate Junit Test Reports')
     junit 'target/surefire-reports/TEST-hello.HelloWorldTest.xml'
 
 }
