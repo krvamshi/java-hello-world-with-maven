@@ -19,7 +19,7 @@ public class HelloWorldTest {
 
   @Before
   public void beforeEachTest(){
-    System.out.println("Executed before each test");
+    System.out.println("Executed before each test..");
   }
 
   @After
